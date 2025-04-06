@@ -1,9 +1,210 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <title>Portfolio Quinten</title>
+
+    <!-- Fonts (Google Fonts)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS file -->
+    <link rel="stylesheet" href="style.css" />
+
+    <meta charset="utf-8" />
+    <script src="index.js"></script>
   </head>
-  <body></body>
+
+  <body>
+    <div class="navigation-bar">
+      <div class="navbar-item">
+        <a
+          class="navbar-item-text"
+          href="https://www.linkedin.com/in/quinten-janson-187638182"
+          >Contact</a
+        >
+      </div>
+      <div class="navbar-item">
+        <a class="navbar-item-text" href="#work">My work</a>
+      </div>
+      <div class="navbar-item">
+        <a class="navbar-item-text" href="#who">Who am I?</a>
+      </div>
+      <div class="navbar-item">
+        <a class="navbar-item-text" href="#Home">Home</a>
+      </div>
+    </div>
+    <section id="Home">
+      <div class="left-section1">
+        <img class="wave-background" src="Images/Wave-background.svg" />
+        <img
+          class="main-image"
+          src="Images/cr_screenshots.png"
+          alt="Image not found"
+        />
+      </div>
+      <div class="right-section1">
+        <div class="info-box">
+          <span class="wave">👋</span>
+          <h1 class="title">Hi, I'm Quinten</h1>
+          <p class="description-text">Student Creative Technology</p>
+          <p class="description-text">University of Twente 🇳🇱</p>
+          <a
+            class="contact-button"
+            href="https://www.linkedin.com/in/quinten-janson-187638182"
+          >
+            Contact
+          </a>
+        </div>
+      </div>
+
+      <a href="#who">
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <lottie-player
+          class="arrow-animation"
+          src="Images/Lottie/arrow.json"
+          background="transparent"
+          speed="0.5"
+          loop
+          autoplay
+        >
+        </lottie-player>
+      </a>
+    </section>
+
+    <section id="who" class="explainer">
+      <h1 class="nav-title">Who am I?</h1>
+
+      <div class="safearea">
+        <div class="count">
+          <div class="count-info">
+            <div class="count-detail">
+              <div class="content">
+                <div class="img-shadow">
+                  <img
+                    src="Images/somtoday_logo_app_store.webp"
+                    alt="Somtoday (image not found)"
+                  />
+                </div>
+                <h1>Worked at Somtoday</h1>
+                <h2>
+                  During my time at Somtoday I learned how to develop a platform
+                  at large scale. Working with a nice team gave me a lot of
+                  insights in the world of software development.
+                </h2>
+                <a
+                  class="readmore-button"
+                  href="https://som.today/nieuwsartikel/scholier-quinten-bouwt-mee-aan-nieuwe-leerling-en-ouderomgeving-ik-weet-hoe-leerlingen-denken/"
+                >
+                  Read more
+                </a>
+              </div>
+            </div>
+            <div class="count-detail">
+              <div class="content">
+                <div class="img-shadow">
+                  <img
+                    src="Images/cijferroyale_logo_app_store.webp"
+                    alt="Cijfer Royale (Image not found)"
+                  />
+                </div>
+                <h1>Cijfer Royale</h1>
+                <h2>
+                  A personal grade assistant app for Dutch students, providing
+                  an overview of your grades with graphs 📈, averages 📊, and
+                  calculations 🧮.
+                </h2>
+                <a class="readmore-button" href="https://cijferroyale.nl">
+                  Read more
+                </a>
+              </div>
+            </div>
+            <div class="count-detail">
+              <div class="content">
+                <div class="img-shadow">
+                  <img
+                    src="Images/utwente_logo.png"
+                    alt="University of Twente (Image not found)"
+                  />
+                </div>
+                <h1>Creative Technology</h1>
+                <h2>
+                  A study where you learn about the influence of technology on
+                  humans, design and creative processes.
+                </h2>
+                <a
+                  class="readmore-button"
+                  href="https://www.utwente.nl/en/education/bachelor/programmes/creative-technology/"
+                >
+                  Read more
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="work">
+      <h1 class="nav-title">My work at university</h1>
+      <div class="boxgrid">
+        <div class="grid-item">
+          <div class="grid-item-content">
+            <img
+              src="Images/GridImages/nfc.png"
+              alt="NFC"
+              class="grid-item-image"
+            />
+            <h1 class="grid-item-title">Smart Lock Scanner</h1>
+            <a class="grid-item-description"
+              >I created a device that uses an NFC scanner to open a door with
+              by holding your phone close. It uses the Apple Homekey protocal
+              for easy use.
+            </a>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="grid-item-content">
+            <img
+              src="Images/GridImages/professional_play.webp"
+              alt="Professional Play"
+              class="grid-item-image"
+            />
+            <h1 class="grid-item-title">Lego Serious Play Solo</h1>
+            <a class="grid-item-description"
+              >A project we did during our study for the company Professional
+              Play. We created a demo platform where people can experience Lego
+              Serious Play by having an individual session with AI.</a
+            >
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="grid-item-content">
+            <img
+              src="Images/GridImages/html_css.jpg"
+              alt="html css"
+              class="grid-item-image"
+            />
+            <h1 class="grid-item-title">This site</h1>
+            <a class="grid-item-description"
+              >I created this portfolio as part of my study. It is a place where
+              I can show what I made and learned. The site is made with plain
+              HTML and CSS.
+            </a>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="grid-item-content">
+            <img src="Images/GridImages/idea.png" class="grid-item-image" />
+            <h1 class="grid-item-title">More coming soon...</h1>
+            <a class="grid-item-description"
+              >Learning is a WIP. New projects are coming soon!
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
